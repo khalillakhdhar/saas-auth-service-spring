@@ -29,4 +29,5 @@ private long id;
 	@ManyToMany(mappedBy = "roles",fetch = FetchType.LAZY)
 	private Set<UserInfo> users=new HashSet<UserInfo>();
 	
+	
 }
